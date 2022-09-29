@@ -26,7 +26,6 @@ from random import randint
 import time
 import asyncio
 import youtube_dl
-from keep_alive import keep_alive
 #from BOT_TOKEN import BOT_TOKEN
 from itertools import cycle
 from discord.ext.commands import cooldown
@@ -1739,7 +1738,6 @@ def setup(bot):
     bot.add_cog(Music(bot))'''
 #keeps bot online as a webserver
 
-keep_alive()
 #client token to run bot
 ',reconnect=True,bot=True)'
 'client.run(token)'
