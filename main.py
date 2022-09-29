@@ -31,7 +31,6 @@ from discord.ext.commands import cooldown
 from discord.ext.commands import BucketType
 from discord import FFmpegPCMAudio
 from discord.ext import tasks
-from bs4 import BeautifulSoup
 from discord.ext.commands import Bot
 #other important imports for system
 import shutil
