@@ -25,7 +25,6 @@ import random
 from random import randint
 import time
 import asyncio
-import youtube_dl
 #from BOT_TOKEN import BOT_TOKEN
 from itertools import cycle
 from discord.ext.commands import cooldown
